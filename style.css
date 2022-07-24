@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+body {
+  background: #1b1b32;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 78px;
+  width: 498px;
+  height: 100vh;
+  padding: 0;
+}
+
+.container h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.container p {
+  text-align: center;
+  margin-bottom: 48px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.container b {
+  width: 91px;
+  height: 19px;
+  top: 208px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  width: 498px;
+  height: 40px;
+  top: 235px;
+  margin: 12px 0 12px 0;
+  border: none;
+  border-radius: 8px;
+  background: #101022;
+  color: white;
+  padding-left: 16px;
+}
+
+textarea {
+  display: flex;
+  margin: 8px 0 32px 0;
+  background-color: #101022;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  border-radius: 8px;
+  border-style: none;
+  width: 100%;
+  height: 113px;
+  padding: 12px 16px 11px;
+}
+
+#Baccount {
+  margin-left: 27px;
+}
+
+input[type="checkbox"] {
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  background-color: rgb(93, 93, 93);
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.registerbtn {
+  background-color: #101022;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin: 48px 0 121px 0;
+}
+
+.registerbtn:hover {
+  opacity: 30;
+  background-color: rgb(93, 93, 93);
+}
